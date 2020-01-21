@@ -4,5 +4,7 @@ class author
 {
 	int id;
 	std::string name;
+	int birth;
+	void print_author();
 };
 
