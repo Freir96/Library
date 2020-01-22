@@ -3,10 +3,12 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "Type \"help\" for command list and \"exit\" to end process.\n";
 	Libray l;
-	bool go_on = l.get_command();
+	l.read_data();
+	bool go_on = true;
 	while (go_on) {
+		std::cout << "> ";
 		go_on = l.get_command();
 	}
 }
