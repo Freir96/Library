@@ -2,13 +2,13 @@
 #include <string>
 class book
 {
+public:
 	int id;
 	std::string name;
 	std::string author_name;
 	int author_id;
 	bool borrowed;
 	int borrowed_by;
-public:
 	void borrow(int user_id);
 	void return_b(int user_id);
 	void print_book();

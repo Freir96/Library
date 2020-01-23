@@ -2,9 +2,9 @@
 #include <string>
 class user
 {
+public:
 	int id;
 	std::string name;
-public:
 	void print_user();
 	user(int id, std::string name) {
 		this->id = id;
